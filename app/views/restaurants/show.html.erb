@@ -1,4 +1,5 @@
-<p>
+<div class="m-4">
+  <p>
   <strong>Name:</strong>
   <%= @restaurant.name %>
 </p>
@@ -28,3 +29,5 @@
 <%= link_to 'Leave a review', new_restaurant_review_path(@restaurant) %>
 <br>
 <%= link_to 'Go back', restaurants_path(@restaurants) %>
+
+</div>
